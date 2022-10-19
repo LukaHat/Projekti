@@ -1,0 +1,31 @@
+@import './display';
+@import './mixins';
+@import './text-decoration';
+@import './variables';
+#menu {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    overflow: scroll;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory; 
+  }
+  #menu::-webkit-scrollbar{
+    display: none;
+  }
+  .mi {
+    width: 50%;
+    flex-shrink: 0;
+    height: 100%;
+    @include menuItem;
+  }
+
+  .mi > div{
+    scroll-snap-align: start;
+  }
+
+.menuItem1{
+    border-bottom: 3px solid rgb(247, 210, 44);
+}
+

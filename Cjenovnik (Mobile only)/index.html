@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/app.js" defer></script>
+    <title>Caffe bar Blues</title>
+</head>
+
+<body>
+    <div class="hamburger-menu">
+        <h1 id="mainH">Caffe Bar Blues</h1>
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+
+        <ul class="menu__box">
+            <li><a class="menuHeader" href="#">
+                    <h2>Ponuda</h2>
+                    <div>_______________</div>
+                </a></li>
+            <li><a class=" menu__item m_i1" href="#slide-1">
+                    <img src=" /coffee.png" alt="">
+                    Topli napitci</a>
+            </li>
+            <li><a class="menu__item m_i2" href="#slide-2">
+                    <img src="/softDrink.png" alt="">
+                    Bezalkoholna pića</a></li>
+            <li><a class="menu__item m_i3" href="#slide-3">
+                    <img src="/beer.png" alt="">
+                    Pivo</a></li>
+            <li><a class="menu__item m_i4" href="#slide-4">
+                    <img src="/shots.png" alt="">
+                    Žestoka pića</a></li>
+            <li><a class="menu__item m_i5" href="#slide-5">
+                    <!--add image-->
+                    Hrana
+                </a></li>
+        </ul>
+    </div>
+    <main>
+        <div id="menu">
+            <div id="topliNapitciMi" class="menuItem1 mi">
+
+                <img src="/coffee.png" alt="">
+                <a href="#slide-1" style="text-decoration:none;" id="link1">
+                    <p>Topli Napitci</p>
+                </a>
+            </div>
+            <div id="bezalkoholnaPićaMi" class="menuItem2 mi">
+                <img src="/softDrink.png" alt="">
+                <a href="#slide-2" style="text-decoration:none;">
+                    <p>Bezalkoholna pića</p>
+                </a>
+            </div>
+            <div id="pivoMi" class="menuItem3 mi">
+                <img src="/beer.png" alt="">
+                <a href="#slide-3" style="text-decoration:none;">
+                    <p>Pivo</p>
+                </a>
+            </div>
+            <div id="zeštokaPićaMi" class="menuItem4 mi">
+                <img src="/shots.png" alt="">
+                <a href="#slide-4" style="text-decoration:none;">
+                    <p>Žestoka pića</p>
+                </a>
+            </div>
+            <div id="hranaMi" class="menuItem5 mi">
+                <a href="#slide-5" style="text-decoration:none;">
+                    <p>Hrana</p>
+                </a>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="ponuda1 slide" id="slide-1">
+                <h2 class="ponudaTitle">Topli napitci</h2>
+
+                <div class="ponuda">
+                    <p>Kava</p>
+                    <div id="cijena">
+                        <p><span>1,06€</span><span id="separator"></span><span>8,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Kava sa mlijekom</p>
+                    <div id="cijena">
+                        <p><span>1,19€</span><span id="separator"></span><span>9,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Capuccino</p>
+                    <div id="cijena">
+                        <p><span>1,33€</span><span id="separator"></span><span>10,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Čaj</p>
+                    <div id="cijena">
+                        <p><span>1,19€</span><span id="separator"></span><span>9,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Čaj i med</p>
+                    <div id="cijena">
+                        <p><span>1,33€</span><span id="separator"></span><span>10,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Topla čokolada</p>
+                    <div id="cijena">
+                        <p><span>1,46€</span><span id="separator"></span><span>11,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Bijela kava</p>
+                    <div id="cijena">
+                        <p><span>1,33€</span><span id="separator"></span><span>10,00kn</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ponuda2 slide" id="slide-2">
+                <h2 class="ponudaTitle">Bezalkoholna pića</h2>
+                <div class="ponuda">
+                    <p>Pepsi 0,33</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Spezi 0,33</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Pepsi Zero</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Juicy Vita</p>
+                    <div id="cijena">
+                        <p><span>1,33€</span><span id="separator"></span><span>10,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Coca Cola</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Prirodni sok Maraska</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Inka Tonic Water 0,25L</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Inka Bitter Lemon 0,25L</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Romerquelle Limunska trava</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Cocta</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Hidra</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Jana Ledeni čaj</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Jamnica Mineralna voda 1L</p>
+                    <div id="cijena">
+                        <p><span>2,65€</span><span id="separator"></span><span>20,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Mirinda Orange 0,25L</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>7UP 0,25L</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="ponuda3 slide" id="slide-3">
+                <h2 class="ponudaTitle">Pivo</h2>
+
+                <div class="ponuda">
+                    <p>Ožujsko 0,50</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Osječko 0,50</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Osječko Radler 0,50</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Karlovačko 0,50</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Baltazar 0,33</p>
+                    <div id="cijena">
+                        <p><span>3,45€</span><span id="separator"></span><span>26,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Zmajsko pivo 0,33</p>
+                    <div id="cijena">
+                        <p><span>2,52€</span><span id="separator"></span><span>19,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Jelen 0,33</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Somersby 0,33</p>
+                    <div id="cijena">
+                        <p><span>2,39€</span><span id="separator"></span><span>18,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>GRIF 0,50</p>
+                    <div id="cijena">
+                        <p><span>3,45€</span><span id="separator"></span><span>26,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Pšenični Paulaner 0,50</p>
+                    <div id="cijena">
+                        <p><span>2,39€</span><span id="separator"></span><span>18,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Corona 0,33</p>
+                    <div id="cijena">
+                        <p><span>2,79€</span><span id="separator"></span><span>21,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Staropramen 0,50</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Heineken 0,33</p>
+                    <div id="cijena">
+                        <p><span>2,12€</span><span id="separator"></span><span>16,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Stella Artois 0,33</p>
+                    <div id="cijena">
+                        <p><span>2,12€</span><span id="separator"></span><span>16,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Karlovačko 0,33</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Kruševice 0,50</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Laško 0,50</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Stari Lisac 0,50</p>
+                    <div id="cijena">
+                        <p><span>1,86€</span><span id="separator"></span><span>14,00kn</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="ponuda4 slide" id="slide-4">
+                <h2 class="ponudaTitle">Žestoka pića</h2>
+                <div class="ponuda">
+                    <p>Chivas 0,03</p>
+                    <div id="cijena">
+                        <p><span>2,65€</span><span id="separator"></span><span>20,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Monkey Shoulder 0,03</p>
+                    <div id="cijena">
+                        <p><span>3,98€</span><span id="separator"></span><span>30,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Pelinkovac 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,06€</span><span id="separator"></span><span>8,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Vodka 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,06€</span><span id="separator"></span><span>8,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Hendrik's 0,03</p>
+                    <div id="cijena">
+                        <p><span>2,65€</span><span id="separator"></span><span>20,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Mountain Creek Gin 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,59€</span><span id="separator"></span><span>12,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Jameson 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,59€</span><span id="separator"></span><span>12,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Jack Daniels 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,99€</span><span id="separator"></span><span>15,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Jaggermeister 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,59€</span><span id="separator"></span><span>12,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Konjak 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,06€</span><span id="separator"></span><span>8,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Medica 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,06€</span><span id="separator"></span><span>8,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Ballantines 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,59€</span><span id="separator"></span><span>12,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Captain Morgan 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,59€</span><span id="separator"></span><span>12,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Stock 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,06€</span><span id="separator"></span><span>8,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Baileys 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,59€</span><span id="separator"></span><span>12,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Chivas 0,03</p>
+                    <div id="cijena">
+                        <p><span>2,65€</span><span id="separator"></span><span>20,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Empire Gin 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,06€</span><span id="separator"></span><span>8,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Tequilla 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,59€</span><span id="separator"></span><span>12,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Šljivovica 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,06€</span><span id="separator"></span><span>8,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Antique Pelinkovac 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,46€</span><span id="separator"></span><span>11,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Vinjak Rubin 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,59€</span><span id="separator"></span><span>12,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Travarica 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,06€</span><span id="separator"></span><span>8,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Barun 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,06€</span><span id="separator"></span><span>8,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Johnnie Walker Red Label 0,03</p>
+                    <div id="cijena">
+                        <p><span>1,59€</span><span id="separator"></span><span>12,00kn</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="ponuda5 slide" id="slide-5">
+                <h2 class="ponudaTitle">Hrana</h2>
+                <div class="ponuda">
+                    <p>Kolač</p>
+                    <div id="cijena">
+                        <p><span>1,33€</span><span id="separator"></span><span>10,00kn</span></p>
+                    </div>
+                </div>
+                <div class="ponuda">
+                    <p>Topli sendvič</p>
+                    <div id="cijena">
+                        <p><span>1,33€</span><span id="separator"></span><span>10,00kn</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

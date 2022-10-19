@@ -1,0 +1,65 @@
+@import './variables';
+
+.ponuda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 20px;
+    div{
+        background-color: $text-color;
+        border-radius: 10px;
+        height: 30px;
+        width: 35%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+        span{
+        font-size: 15px;
+        color: black;
+        margin: 1%;
+        font-weight: 800;
+    }
+    }
+    
+}
+.ponudaTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#separator{
+    border-left: 1px solid rgba(47, 47, 47, 0.331);
+}
+
+//try1
+.slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;  
+
+  }
+  .slide {
+    width: 100%;
+    flex-shrink: 0;
+    height: 100%;
+  }
+
+  
+  .slide > div{
+    scroll-snap-align: center;
+  }
+
+
+ 
+ 
+
+ 

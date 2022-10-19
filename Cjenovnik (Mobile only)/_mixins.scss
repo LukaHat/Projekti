@@ -1,0 +1,12 @@
+
+@mixin menuItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5%;
+    img {
+        width: 15%;
+        height: 15%;
+    }
+}
